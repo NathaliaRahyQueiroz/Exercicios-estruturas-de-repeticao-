@@ -8,7 +8,7 @@ numero = float(input("Digite um valor (positivo):"))
 if numero >=0:
     maior = numero
     menor = numero
-    while contador < 4:
+    while contador < 99:
         numero = float(input("Digite um valor (positivo):"))
         while numero <0:
             numero = float(input("Digite um valor (apenas positivo):"))
